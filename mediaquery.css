@@ -1,0 +1,165 @@
+@media screen and (max-width:768px) {
+
+    div.nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    div.logo {
+        font-size: 1.5rem;
+        color: #bcc3c7;
+    }
+
+   .btn{
+       font-size: 30px;
+       display: flex;
+   }
+
+    .navlinks {
+        display: none;
+        width: 100%;
+    }
+
+    .navlinks ul {
+        width: 100%;
+        flex-direction: column;
+        background: #2b3c4b;
+    }
+
+    .navlinks li a {
+        padding: .5rem 1rem;
+    }
+
+    .navlinks li {
+        text-align: center;
+    }
+
+    .navlinks.active {
+        display: flex;
+    }
+
+    div.hero-section {
+        padding: 10rem 3rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.9rem;
+    }
+
+
+    div.hero-background {
+        padding: 9rem 2rem;
+    }
+
+    div.background {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    div.background h4 {
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+
+    .hero-background-pos {
+        display: none;
+    }
+    div.snapshot-team {
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    div.snapshot-team h2 {
+        font-size: 1.5rem;
+    }
+    
+    div.snapshot-team p {
+        font-size: 1.2rem;
+        padding-top: 0.6rem;
+    }
+
+    div.snapshot-box {
+        padding: 4rem 2rem;
+    }
+
+
+    div.snapshot-box-content {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    div.box1 {
+        width: 100%;
+        height: 300px;
+    }
+
+    div.box3 {
+        width: 100%;
+        height: 300px;
+    }
+
+    div.circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    div.box1 h5 {
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+    }
+
+    div.box3 h5 {
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+    }
+
+
+    div.gallery-section {
+        padding: 1.8rem;
+    }
+
+    div.gallery-img {
+        flex-direction: column;
+    }
+
+    div.img {
+        margin: 20px;
+    }
+
+    div.img img {
+        width: 100%;
+        object-fit: cover;
+        height: 350px;
+    }
+
+
+    div.footer {
+        padding: 2rem;
+    }
+
+    div.footer-input {
+        flex-direction: column;
+    }
+
+    input[type='text'] {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    input[type='email'] {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+}

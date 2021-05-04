@@ -1,2 +1,3 @@
-# Responsive-Web-Page
-Using Media query to make a Responsive Web Page
+# zuri-responsive-task
+A responsive landing page
+https://zuri-responsive-task.netlify.app/
